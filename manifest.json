@@ -1,0 +1,14 @@
+{
+  "name": "position finder",
+  "description": "an ectension to show your real time position of your mouse cursor",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "position-finder.js"
+  },
+  "permissions": ["storage", "activeTab", "scripting"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "BadgeText": "off"
+  }
+}
